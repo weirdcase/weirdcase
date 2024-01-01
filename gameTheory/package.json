@@ -1,0 +1,23 @@
+{
+  "name": "gametheory",
+  "version": "1.0.0",
+  "description": "Game Theory",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nilaydatta/gameTheory.git"
+  },
+  "keywords": [
+    "game",
+    "theory"
+  ],
+  "author": "nilaydatta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nilaydatta/gameTheory/issues"
+  },
+  "homepage": "https://github.com/nilaydatta/gameTheory#readme"
+}
