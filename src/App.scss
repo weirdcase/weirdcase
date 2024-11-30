@@ -1,0 +1,29 @@
+@import url(./assets/normalize.css);
+
+/* // Functions first */
+@import "bootstrap/scss/functions";
+
+/* // Variable overrides second */
+$enable-shadows: true;
+$prefix: "mo-";
+
+/* // Required Bootstrap imports */
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/variables-dark";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/root";
+
+/* // Optional components */
+@import "bootstrap/scss/utilities";
+@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/containers";
+@import "bootstrap/scss/grid";
+@import "bootstrap/scss/helpers";
+@import "bootstrap/scss/utilities/api";
+@import "bootstrap/scss/bootstrap";
+
+/* // Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+
+@import url(./assets/custom.scss);

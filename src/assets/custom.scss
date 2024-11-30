@@ -1,0 +1,89 @@
+// Fonts
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+.newsreader {
+  font-family: "Newsreader", serif;
+  font-optical-sizing: auto;
+}
+
+.weirdcase-app-wrapper {
+  @extend .montserrat;
+  min-height: 100vh;
+  position: relative;
+  line-height: 1.5;
+  font-size: 16px;
+  color: #252525;
+  font-weight: 400;
+  .card-header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+.clearfix::before, 
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.content-left {
+  float: left;
+}
+.content-right {
+  float: right;
+}
+.brand {
+  font-family: "Newsreader", serif;
+  font-optical-sizing: auto;
+  color:darkolivegreen;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1;
+  padding-top: 4px;
+  span {
+    color: darkslategrey;
+    font-weight: 700;
+  }
+}
+.primary-heading {
+  font-weight: 700;
+  color: #222;
+}
+.secondary-heading {
+  font-weight: 600;
+  color: #444;
+}
+#navbarSupportedContent {
+  .navbar-nav {
+    .nav-link {
+      color: darkolivegreen;
+      &.active, &.show {
+        color: darkslategrey;
+        font-weight: 600;
+      }
+    }
+  }
+}
+.main-content {
+  padding-bottom: 80px;
+}
+img {
+  max-width: 100%;
+}
+.accordian-image {
+  margin-bottom: 1rem;
+}
+.card {
+  .card-title {
+    color: darkslategrey;
+  }
+  .card-header {
+    color: darkolivegreen;
+  }
+}
+button.accordion-button {
+  font-weight: 500;
+  color: darkslategrey;
+  font-size: 16px;
+}
