@@ -1,0 +1,8 @@
+build/
+node_modules
+/.vs/slnx.sqlite
+/.vs/weirdcase.github.io/FileContentIndex/4ea33abf-afd9-43d1-9652-379747509458.vsidx
+/.vs/weirdcase.github.io/FileContentIndex/9d944c7d-0014-4833-b548-7385a2bd80cd.vsidx
+/.vs/weirdcase.github.io/FileContentIndex/c19d11dc-d00a-47e6-97ca-4f7611a460dc.vsidx
+/.vs/weirdcase.github.io/FileContentIndex
+/.vs/weirdcase.github.io/config
