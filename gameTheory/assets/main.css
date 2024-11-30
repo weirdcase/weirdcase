@@ -1,0 +1,8 @@
+.game-section {
+    padding: 0 20px;
+}
+#roundFullDataDisplaySection {
+    display: block;
+    max-height: 247px;
+    overflow-y: scroll;
+}
